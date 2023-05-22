@@ -1,0 +1,8 @@
+It is to be noted that several mods have reused OWG textures and assets for their 
+own mods. I have done this before with NHE's assets as well. However, any "custom"
+textures that are not directly sourced from NHE or from other games 
+[KSP/Outer Wilds/Space Engine] are NOT to be used in other mods unless givin
+permission. If you have any questions about which assets are free to use please 
+ask me. [◢Jammer◣#5048]
+
+This is mainly future proofing for when I start to use custom textures. 

@@ -1,0 +1,106 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name" : "Kerbin",
+	"starSystem" : "Jammer.OuterWildsGalaxyRerun",
+	"Spawn" : 
+	{
+		"playerSpawnPoint" :
+		{
+			"x" : 424.3,
+			"y" : -28.2,
+			"z" : -128.5
+		},
+		"shipSpawnPoint" :
+		{
+			"x" : 421.9,
+			"y" : -33.1,
+			"z" : -141.8
+		},
+		"startwithSuit" : true
+	},
+	"Base" :
+	{
+		"surfaceGravity" : 12,
+		"surfaceSize" : 370,
+		"hasMapMarker" : true,
+		"hasAmbientLight" : true,
+		"gravityFallOff" : "inverseSquared",
+		"lightTint" : 
+		{
+			"r" : 0,
+			"g" : 0,
+			"b" : 255,
+			"a" : 255
+		}
+	},
+	"Orbit" :
+	{
+		"semiMajorAxis" : 8500,
+		"inclination" : 0,
+		"primaryBody" : "Sol",
+		"isMoon" : false,
+		"isTidallyLocked" : false,
+		"longitudeOfAscendingNode" : 0,
+		"eccentricity" : 0,
+		"argumentOfPeriapsis": 0,
+		"axialTilt" : 5,
+		"siderealPeriod" : 30
+	},
+	"Atmosphere" :
+	{
+		"hasOxygen" : true,
+		"hasAtmosphere" : true,
+		"size" : 650,
+		"fogTint" : 
+		{
+			"r" : 90,
+			"g" : 128,
+			"b" : 128,
+			"a" : 255
+		},
+		"fogDensity": 0.5,
+		"fogSize": 300
+	},
+"Volumes": {
+	"audioVolumes": [
+		{
+			"audio": "planets/soundtrack/maintenonvoiedreuxoiseaux24127h30",
+			"loop": true,
+			"radius": 600,
+			"track": "music"
+		}
+	]
+},
+	"Water": {
+		"size" : 370,
+		"tint":
+		{
+			"r" : 3,
+			"g" : 157,
+			"b" : 252,
+			"a" : 255
+		}
+	},
+	"Props" :
+	{
+		"Details":
+		[
+			{
+			"assetBundle":"planets/bundle/sol system",
+			"path":"Assets/kerbintint.prefab",
+			"position":{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+				"rotation":{
+				"x":0,
+				"y":0,
+				"z":0
+			},
+			"scale": 1
+			}
+		]
+	}
+
+}
