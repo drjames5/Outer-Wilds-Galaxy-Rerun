@@ -1,0 +1,11 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "Jammer",
+  "name": "Outer Wilds Galaxy Rerun [Alpha]",
+  "uniqueName": "Jammer.OuterWildsGalaxyRerun",
+  "version": "0.0.1",
+  "owmlVersion": "2.7.3",
+  "dependencies": [
+    "xen.NewHorizons"
+  ]
+}
